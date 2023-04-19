@@ -6,8 +6,13 @@ body {
   cursor: crosshair;
 }
 
+#margin {
+  padding-bottom: 100px;
+}
+
 #gallery {
-  height: 75vmax;
+  margin-top: 100px;
+  height: 80vmax;
   width: 95vmax;
   position: relative;
 }
@@ -24,7 +29,7 @@ body {
 }
 
 .block:nth-child(1) {
-  top: 0;
+  top: 0%;
   left: 10%;
   background: url("./assets/1.webp") no-repeat 50% 50%;
   background-size: cover;
@@ -88,7 +93,7 @@ body {
 .block:nth-child(11) {
   bottom: 0;
   right: 35%;
-  background: url("./assets/11.webp") no-repeat 50% 50%;
+  background: url("./assets/11.webp ") no-repeat 50% 50%;
   background-size: cover;
 }
 .block:nth-child(12) {

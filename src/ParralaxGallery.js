@@ -7,7 +7,6 @@ const ParallaxGallery = () => {
   const blocksRef = useRef([]);
 
   useEffect(() => {
-    const gallery = galleryRef.current;
     const blocks = blocksRef.current;
 
     blocks.forEach((block, index) => {
@@ -68,17 +67,20 @@ const ParallaxGallery = () => {
   };
 
   return (
-    <div id="gallery" ref={galleryRef} onMouseMove={handleGalleryMouseMove}>
-      {Array(30)
-        .fill()
-        .map((_, index) => (
-          <div
-            key={index}
-            className="block"
-            ref={(el) => (blocksRef.current[index] = el)}
-          ></div>
-        ))}
-    </div>
+    <>
+      <h1 id="margin">Jamie HUghes</h1>
+      <div id="gallery" ref={galleryRef} onMouseMove={handleGalleryMouseMove}>
+        {Array(30)
+          .fill()
+          .map((_, index) => (
+            <div
+              key={index}
+              className="block"
+              ref={(el) => (blocksRef.current[index] = el)}
+            ></div>
+          ))}
+      </div>
+    </>
   );
 };
 
