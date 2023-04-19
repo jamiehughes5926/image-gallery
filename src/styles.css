@@ -7,11 +7,11 @@ body {
 }
 
 #margin {
-  padding-bottom: 100px;
+  padding-bottom: 10px;
 }
 
 #gallery {
-  margin-top: 100px;
+  margin-top: 50px;
   height: 80vmax;
   width: 95vmax;
   position: relative;
@@ -121,7 +121,7 @@ body {
   background-size: cover;
 }
 .block:nth-child(16) {
-  bottom: 8%;
+  bottom: 10%;
   right: 20%;
   background: url("./assets/16.webp") no-repeat 50% 50%;
   background-size: cover;
@@ -139,13 +139,13 @@ body {
   background-size: cover;
 }
 .block:nth-child(19) {
-  bottom: 5%;
+  bottom: 10%;
   right: 3%;
   background: url("./assets/19.webp") no-repeat 50% 50%;
   background-size: cover;
 }
 .block:nth-child(20) {
-  bottom: 0;
+  bottom: 15%;
   right: 10%;
   background: url("./assets/20.webp") no-repeat 50% 50%;
   background-size: cover;

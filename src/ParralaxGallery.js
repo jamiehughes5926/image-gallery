@@ -68,7 +68,7 @@ const ParallaxGallery = () => {
 
   return (
     <>
-      <h1 id="margin">Jamie HUghes</h1>
+      <h1 id="margin">Interative Image Gallery</h1>
       <div id="gallery" ref={galleryRef} onMouseMove={handleGalleryMouseMove}>
         {Array(30)
           .fill()
